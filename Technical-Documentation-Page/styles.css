@@ -1,0 +1,45 @@
+* {
+    font-family: Georgia;
+}
+header {
+    font-size: 30px;
+    color: #000;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        display: block;
+        position: fixed;
+        left: 0;
+        max-width: fit-content;
+        min-height: 100vh;
+    }
+}
+
+.main-sections {
+    display: block;
+    position: static;
+    margin-left: 300px;
+
+}
+
+#navbar {
+    color: lightgrey;
+    font-size: 20px;
+    border-right: 2px solid gray;
+}
+
+.nav {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+code {
+    background-color: #eee;
+    display: block;
+}

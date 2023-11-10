@@ -1,0 +1,41 @@
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+.radios {
+    height: 1.025rem;
+}
+fieldset {
+    border: none;
+}
+.checkboxes {
+    height: .9rem;
+}
+body {
+    font-family: Verdana;
+    background-image: url("Yuriy-Kovalev-Unsplash.webp");
+    color: white;
+}
+fieldset {
+    border: none;
+    padding: 2rem;
+}
+form {
+    width: 60vw;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    
+  }
+  .header {
+    text-align: center;
+  }
+  .input-fields {
+    width: 600px;
+    height: 30px;
+    color: grey;
+  }
+  .buttons {
+    background-color: lavenderblush;
+  }
