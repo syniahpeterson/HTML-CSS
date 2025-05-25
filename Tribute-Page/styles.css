@@ -1,59 +1,50 @@
-* {
-    font-family: Sengoe;
-    color: #515151;
-  }
-  
-  #image {
+body {
+    background-color: #2D112B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F5F5F0;
+}
+
+#title, h2, h3 {
+    color: #CBA135;
+}
+
+#title, h2, p, figcaption {
+    text-align: center;
+}
+
+#title {
+    font-size: 4rem;;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+a, a:active, a:visited {
+    color: #CBA135;
+}
+
+a:hover {
+    color: #F5F5F0;
+}
+
+#main {
+    max-width: 90%;
+}
+
+#image {
+    display: block;
     max-width: 100%;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  figcaption {
-    text-align: center;
-  }
-  
-  header {
-    background-color: #eee;
-    text-align: center;
-    padding: 15px;
-    margin-top: 5px;
-  }
-  
-  div {
-    background-color: #eee;
-  }
-  
-  #tribute-info {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  #bullet-points {
-    width: 50%;
-    margin: auto;
-    text-align: left;
-    padding-left: 600px;
-    padding-right: 1000px;
-    max-width: 700px;
-  }
+    border-radius: 10px;
+}
 
-   #bullet-points ul, #bullet-points li{
-     margin:0;
-     padding-top: 5px;
-     padding-bottom: 5px;
-     text-align: left-align;
-  }
-  
-  #footer {
-    width: 50%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .bold {
-    font-weight: bold;
-  }
+li::marker {
+    color: #CBA135;
+}
