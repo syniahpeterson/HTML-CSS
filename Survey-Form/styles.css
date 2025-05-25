@@ -1,20 +1,25 @@
 body {
   font-family: Montserrat, Playfair Display, Roboto;
-  margin: auto;
   background-color: hotpink;
-  color: white;
+  color: black;
 }
 
-form {
+#survey-form {
   background: url('https://plus.unsplash.com/premium_photo-1661313764663-dd50701b8259?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  width: 40%;
-  margin: auto;
-  padding: 1rem;
+  width: 60vw;
+  height: 75%;
+  min-height: 100vh;
+  padding: 2rem;
+  margin: 0 auto 5rem auto;
   border-radius: 8px;
 }
 
 h1, p {
   text-align: center;
+}
+
+#title, #description {
+    color: white;
 }
 
 input[type='text'], input[type='number'], input[type='email'], select, textarea, button {
@@ -23,9 +28,9 @@ input[type='text'], input[type='number'], input[type='email'], select, textarea,
   border: none;
   padding: 0.5em;
   border-radius: .5em;
-  height: 1.5em;
+  height: 2em;
   min-width: 80%;
-  margin: 5px auto;
+  margin: 4rem auto;
   font-size: 1em;
 }
 
@@ -36,7 +41,6 @@ fieldset {
 
 button {
   background-color: transparent;
-  color: white;
   min-height: 2rem;
 }
 
@@ -46,4 +50,9 @@ button:hover {
 
 textarea {
   min-height: 5em;
+}
+
+label {
+    margin: 0;
+    padding: 0;
 }
