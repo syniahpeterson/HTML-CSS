@@ -2,16 +2,23 @@ body {
   font-family: Montserrat, Playfair Display, Roboto;
   background-color: hotpink;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #survey-form {
   background: url('https://plus.unsplash.com/premium_photo-1661313764663-dd50701b8259?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  width: 60vw;
-  height: 75%;
-  min-height: 100vh;
+  width: 100%;
+  max-width: 600px;
   padding: 2rem;
-  margin: 0 auto 5rem auto;
+  margin: 2rem;
   border-radius: 8px;
+  font-size: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 h1, p {
@@ -19,24 +26,38 @@ h1, p {
 }
 
 #title, #description {
-    color: white;
+  color: white;
 }
 
-input[type='text'], input[type='number'], input[type='email'], select, textarea, button {
-  display: block;
+input[type='text'],
+input[type='number'],
+input[type='email'],
+select,
+textarea,
+button {
   background-color: rgba(255, 255, 255, 0.8);
   border: none;
   padding: 0.5em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   height: 2em;
-  min-width: 80%;
-  margin: 4rem auto;
-  font-size: 1em;
+  width: 100%;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+  box-sizing: border-box;
 }
 
 fieldset {
-  border: .5px solid white;
-  margin-bottom: 10px;
+  border: 0.5px solid white;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+textarea {
+  min-height: 5em;
+  height: auto;
 }
 
 button {
@@ -48,11 +69,7 @@ button:hover {
   border: 2px solid hotpink;
 }
 
-textarea {
-  min-height: 5em;
-}
-
 label {
-    margin: 0;
-    padding: 0;
+  margin-bottom: 0.5rem;
+  width: 100%;
 }
