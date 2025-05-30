@@ -1,45 +1,118 @@
 * {
-    font-family: Georgia;
+  box-sizing: border-box;
 }
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
 header {
-    font-size: 30px;
-    color: #000;
+  color: #ffffff;
+  font-size: 1.25rem;
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
-@media screen and (max-width: 600px) {
-    #navbar {
-        display: block;
-        position: fixed;
-        left: 0;
-        max-width: fit-content;
-        min-height: 100vh;
-    }
+nav {
+  width: 120px;
+  min-width: 120px;
+  max-width: 200px;
+  height: 100vh;
+  background-color: #232323;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin: 0;
+  z-index: 1000;
 }
 
-.main-sections {
-    display: block;
-    position: static;
-    margin-left: 300px;
-
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-#navbar {
-    color: lightgrey;
-    font-size: 20px;
-    border-right: 2px solid gray;
+.nav-link {
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
 }
 
-.nav {
-    border: 1px solid gray;
-    padding: 10px;
+.nav-link:hover {
+  color: #c792ea;
 }
 
-a {
-    color: grey;
-    text-decoration: none;
+#main-doc {
+  flex: 1;
+  padding: 2rem;
+  min-height: 100vh;
+  overflow-y: auto;
 }
 
+@media (max-width: 600px) {
+  .nav-link {
+    font-size: 0.75rem;
+    padding: 0.25rem;
+  }
+
+  header,
+  .nav-header {
+    font-size: 1.3rem;
+  }
+
+  #main-doc {
+    padding: 0.5rem;
+  }
+
+  #navbar {
+    width: 140px;
+    min-width: 120px;
+    max-width: 180px;
+    margin: 0;
+    padding: 0.5rem 0;
+    font-size: 0.5em;
+  }
+
+  .main-section {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+pre,
 code {
-    background-color: #eee;
-    display: block;
+  background-color: #1e1e1e;
+  color: #d6deeb;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border-radius: 4px;
+  font-family: "Fira Mono", "Consolas", "Monaco", monospace;
+  font-size: 1em;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.main-section {
+  padding: 2rem;
+  color: #e0e0e0;
+}
+
+.divider {
+  border-bottom: 1px solid white;
+  margin: 2em auto;
+}
+
+footer {
+  text-align: center;
+  margin: 1em;
 }
