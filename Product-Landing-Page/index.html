@@ -1,80 +1,136 @@
-<DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width initial-scale=1.0">
-        <link rel="stylesheet" href="styles.css">
-        <title>Product Landing Page</title>
-      </head>
-      <body>
-        <header id="header">
-          <img id="header-img" src="trombone.jpg"><h1>Original Trombones</h1></img>
-        <nav id="nav-bar">
-          <ul>
-            <li><a class="nav-link" href="#features">Features</a></li>
-            <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="nav-container">
+          <a href="index.html"
+            ><img id="header-img" src="./PawPal_Logo.png"
+          /></a>
+          <ul class="nav-links">
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+            <li><a href="#faq" class="nav-link">FAQ</a></li>
           </ul>
-          </nav>
-          </header>
-          <main>
-            <section id="email-section">
-              <h1>Handcrafted, home-made masterpieces</h1>
-              <form id="form" action="https://www.freecodecamp.com/email-submit" method="GET">
-                <input id="email" type="email" name="email" placeholder="Enter your email address"></input>
-                <br>
-                <input id="submit" type="Submit"></input>
-              </form>
-            </section>
-            <section id="features">
-              <img src="premium-materials.png"><h1>Premium Materials</h1></img>
-              <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
-              <img src="fast-shipping.avif"><h1>Fast Shipping</h1></img>
-              <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
-              <img src="quality-assurance.png"><h1>Quality Assurance</h1></img>
-              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
-            </section>
-            <section id="how-it-works">
-              <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=4x3PuxLq1LU6KXRC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-              </iframe>
-            </section>
-            <section id="pricing">
-              <section class="tenor">
-                <section class="trombone-type">
-                  <h2>BASS TROMBONE</h2>
-                </section>
-                <h3>$600</h3>
-                <p>Most common trombone</p>
-                <p>Great for variety of music genres</p>
-                <button type="Submit">SELECT</button>
-              </section>
-              <section class="bass">
-                <section class="trombone-type">
-                <h2>TENOR TROMBONE</h2>
-                </section>
-                <h3>$900</h3>
-                <p>Plays similar to a Tuba</p>
-                <p>Great for Classical Bands</p>
-                <button type="Submit">SELECT</button>
-              </section>
-              <section class="valve">
-                <section class="trombone-type">
-                  <h2>VALVE TROMBONE</h2>
-                </section>
-                <h3>$1200</h3>
-                <p>Plays similar to a Trumpet</p>
-                <p>Great for Jazz Bands</p>
-                <button type="Submit">SELECT</button>
-              </section>
-            </section>
-          </main>
-          <footer>
-            <ul>
-              <li><a class="footer-link" href="#privacy">Privacy</a></li>
-              <li><a class="footer-link" href="#terms">Terms</a></li>
-              <li><a class="footer-link" href="#contact">Contact</a></li>
-            </ul>
-            <p class="footer-text">Copyright 2016, Original Trombones</p>
-          </footer>
-      </body>
-    </html>
+        </div>
+      </nav>
+      <h2>Never Lose Track of Your Best Friend.</h2>
+      <h3>
+        Meet PawPal - the smart tag that keeps your dog safe, healthy, and just
+        a tap away.
+      </h3>
+    </header>
+    <div class="divider"></div>
+    <main id="main-section">
+      <div id="video-div">
+        <video id="video" controls>
+          <source src="./PawPal Promotion.mp4" />
+        </video>
+      </div>
+      <h4>
+        Peace of mind in your pocket. GPS tracking, digital vet records, and
+        instand ID - all in one lightweight tag.
+      </h4>
+      <div class="divider"></div>
+      <section id="features">
+        <h2>Key Features</h2>
+        <div id="feature-section">
+          <div class="feature">
+            <h4>📍 Real-Time GPS Tracking</h4>
+            <p>
+              Know where your dog is 24/7 with accurate, app-basd location
+              tracking.
+            </p>
+          </div>
+          <div class="feature">
+            <h4>🏷️ Digital Pet ID</h4>
+            <p>
+              No more outdated tags. Update contact info instantly and help
+              finders reach you with one tap.
+            </p>
+          </div>
+          <div class="feature">
+            <h4>💉 Vet & Health Record Storage</h4>
+            <p>
+              Keep vaccine dates, vet visits, and health notes in one place -
+              accessible anytime.
+            </p>
+          </div>
+          <div class="feature">
+            <h4>🐾 Safe & Durable Design</h4>
+            <p>
+              Waterproof, chew-proof, and built for dogs that love to play
+              rough.
+            </p>
+          </div>
+          <div class="feature">
+            <h4>🔋 Recharge Just Once a Month</h4>
+            <p>Efficient battery lasts 30 days on a single charge.</p>
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="testimonials">
+        <h2>Why Pet Parents Love PawPal</h2>
+        <p>
+          "When my dog slipped out of the yard, I found him in minutes thanks to
+          PawPal."<br />- <span>Taylor S., Dog Mom</span>
+        </p>
+        <p>
+          "I never worry about vet paperwork again. It's all on his tag."<br />-
+          <span>Jordan P., Rescue Owner</span>
+        </p>
+      </section>
+      <div class="divider"></div>
+      <section id="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="q-and-a">
+          <h4><span>Q</span>: Does PawPal require a subscription?</h4>
+          <p>
+            <span>A</span>: GPS features require a small monthly plan, but ID
+            and health tracking are always free.
+          </p>
+        </div>
+        <div class="q-and-a">
+          <h4><span>Q</span>: What happens if someone finds my dog?</h4>
+          <p>
+            <span>A</span>: They can scan the tag with a phone and instantly see
+            your contact info (without needing an app).
+          </p>
+        </div>
+        <div class="q-and-a">
+          <h4><span>Q</span>: Is this good for all dog sizes?</h4>
+          <p>
+            <span>A</span>: Yes! PawPal is ultra-light and safe for small and
+            large breeds.
+          </p>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="subscription">
+        <h2>
+          Would you like to subscribe to recieve emails about new products? If
+          so enter your email below:
+        </h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+          <input type="submit" id="submit" />
+        </form>
+      </section>
+    </main>
+  </body>
+  <footer>
+    <small>Copyright <span>&copy</span> 2025, PawPal</small>
+  </footer>
+</html>
