@@ -11,6 +11,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-padding-top: 100px;
 }
 
 body {
@@ -70,6 +71,10 @@ body {
 }
 
 .nav-links li a:hover {
+  color: var(--primary-accent);
+}
+
+.nav-links li a:active {
   color: var(--primary-accent);
 }
 
@@ -214,18 +219,6 @@ footer span {
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .nav-container {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
   #feature-section {
     flex-direction: column;
   }
