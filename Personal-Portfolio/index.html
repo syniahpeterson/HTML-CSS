@@ -1,50 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Personal Portfolio Webpage</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   </head>
   <body>
-    <nav id="navbar">
-      <ul>
-        <li class="nav-link"><a href="#welcome-section">About</a></li>
-        <li class="nav-link"><a href="#projects">Work</a></li>
-        <li class="nav-link"><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <section id="welcome-section">
-      <h1>Hey I am Syniah</h1>
-      <h2>a web developer</h2>
-    </section>
-    <section id="projects">
-      <h1>These are some of my projects</h1>
-      <div class="projects">
-        <div class="project-tile"><img src="Penguin.jpg"><a target="_blank" href="//www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-transforms-by-building-a-penguin/step-104">Flappy Penguin</a></div>
-        <div class="project-tile"><img src="Skyline.jpg"><a target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-variables-by-building-a-city-skyline/step-118">Skyline</a></div>
-        <div class="project-tile"><img src="Markers.jpg"><a target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-colors-by-building-a-set-of-colored-markers/step-94">Markers</a></div>
-        <div class="project-tile"><img src="Cat.jpg"><a target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-intermediate-css-by-building-a-cat-painting/step-82">Cat</a></div>
-        <div class="project-tile"><img src="Piano.jpg"><a target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-responsive-web-design-by-building-a-piano/step-33">Piano</a></div>
-        <div class="project-tile"><img src="Nutrition.jpg"><a target="_blank" href="https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-typography-by-building-a-nutrition-label/step-67">Nutrition Label</a></div>
+    <header class="navbar">
+      <div class="logo">
+        <a href="#welcome-section"
+          ><i class="fa-solid fa-code icon"></i> Syniah Peterson</a
+        >
       </div>
-      <br>
-    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank"><button>Show all</button></a>
+      <nav id="navbar">
+        <a href="#welcome-section">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <div id="spacer"></div>
+    <section id="welcome-section">
+      <h1>Hi, I'm <span>Syniah</span> - Frontend Developer</h1>
+      <img src="SP dev.png" />
+      <p>Resilient by Nature, Developer by Passion.</p>
+      <button class="btn">
+        <a
+          href="https://drive.google.com/file/d/1QDFwNi8UxgDjFxImE7cqsNXDZV6Q48bR/view?usp=sharing"
+          target="_blank"
+          >Download Resume</a
+        >
+      </button>
     </section>
-    <section id="contact">
-      <h1>Let's work together...</h1>
-      <p> How do you take your coffee?</p>
+    <div class="divider"></div>
+    <section id="projects">
+      <h2>My Projects<span>!</span></h2>
+      <div class="project-tiles">
+        <div class="project-tile">
+          <img src="Survey-Form.png" class="project-image" />
+          <h3 class="project-title"><span>Survey Form</span></h3>
+          <p class="project-description">
+            A fun and interactive survey form built to collect users' favorite
+            ice cream flavors and toppings. This project showcases responsive
+            form design, user-friendly layout, and data input handling using
+            HTML and CSS.
+          </p>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <button class="btn">
+            <a
+              href="https://syniahpeterson.github.io/HTML-CSS/Survey-Form/"
+              target="'_blank"
+              class="project-btn"
+              >Explore Project</a
+            >
+          </button>
+        </div>
+        <div class="project-tile">
+          <img src="Tribute-Page.png" class="project-image" />
+          <h3 class="project-title"><span>Tribute Page</span></h3>
+          <p class="project-description">
+            A visually engaging tribute page honoring the life and legacy of
+            Aretha Franklin, the Queen of Soul. This project highlights my
+            ability to blend design, storytelling, and structure to create a
+            meaningful and informative web experience.
+          </p>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <button class="btn">
+            <a
+              href="https://syniahpeterson.github.io/HTML-CSS/Tribute-Page/"
+              class="project-btn"
+              target="_blank"
+              >Explore Project</a
+            >
+          </button>
+        </div>
+        <div class="project-tile">
+          <img src="Product-Landing-Page.png" class="project-image" />
+          <h3 class="project-title"><span>Product Landing Page</span></h3>
+          <p class="project-description">
+            A sleek, modern landing page designed for PawPal, a smart dog tag
+            that combines GPS tracking, digital vet records, and instant pet ID
+            in one convenient device. This project demonstrates my ability to
+            create visually compelling and conversion-focused web pages that
+            clearly communicate product value.
+          </p>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <button class="btn">
+            <a
+              href="https://syniahpeterson.github.io/HTML-CSS/Product-Landing-Page/"
+              class="project-btn"
+              target="_blank"
+              >Explore Project</a
+            >
+          </button>
+        </div>
+        <div class="project-tile">
+          <img src="Technical-Documentation-Page.png" class="project-image" />
+          <h3 class="project-title">
+            <span>Technical Documentation Page</span>
+          </h3>
+          <p class="project-description">
+            A clean, developer-focused technical documentation page covering the
+            core concepts of frontend web development, including HTML, CSS, and
+            JavaScript. This project highlights my ability to organize and
+            present complex information in a structured, accessible, and
+            easy-to-navigate format.
+          </p>
+          <ul class="tech-stack">
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+          <button class="btn">
+            <a
+              href="https://syniahpeterson.github.io/HTML-CSS/Technical-Documentation-Page/"
+              class="project-btn"
+              target="_blank"
+              >Explore Project</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+    <div class="divider"></div>
+    <section id="about">
+      <h2>About Me<span>!</span></h2>
+      <p class="bio">
+        Frontend developer from North Carolina with a love for clean, accessible
+        design. Detail-oriented, resilient, and always learning. Looking for
+        opportunities to grow and build beautiful things on the web.
+      </p>
+      <h3>Skills:</h3>
       <ul>
-        <li><a id="profile-link" class="fa fa-facebook" target="_blank" href="https://www.facebook.com/"> Facebook</a></li>
-        <li><a id="profile-link" class="fa fa-github" target="_blank" href="https://github.com/"> GitHub</a></li>
-        <li><a id="profile-link" class="fa fa-twitter" target="_blank" href="https://twitter.com/"> Twitter</a></li>
-        <li><a id="profile-link" class="fa fa-envelope" target="_blank" href="https://mail.google.com/"> Send an email</a></li>
-        <li><a id="profile-link" class="fa fa-phone" target="_blank" href="tel:+11234567891"> Call me</a></li>
+        <li>
+          <i class="fa-brands fa-html5 icon"></i> Hyper Text Markup Language
+          (HTML5)
+        </li>
+        <li>
+          <i class="fa-brands fa-css3-alt icon"></i> Cascading Style Sheets
+          (CSS3)
+        </li>
+      </ul>
     </section>
-    <section id="spacer"></section>
+    <div class="divider"></div>
+    <section id="contact">
+      <h2>Contact Me<span>!</span></h2>
+      <div id="contact-links">
+        <a
+          href="https://github.com/syniahpeterson"
+          id="profile-link"
+          target="_blank"
+          >GitHub: <i class="fa-brands fa-github icon"></i
+        ></a>
+        <a
+          href="https://linkedin.com/in/syniahpeterson"
+          id="profile-link2"
+          target="_blank"
+          >LinkedIn: <i class="fa-brands fa-linkedin-in icon"></i
+        ></a>
+        <a
+          href="https://www.freecodecamp.org/SyniahPeterson"
+          id="profile-link3"
+          target="_blank"
+          >FreeCodeCamp: <i class="fa-brands fa-free-code-camp icon"></i
+        ></a>
+        <a href="mailto:syniahpeterson@gmail.com"
+          >Email: <i class="fa-solid fa-envelope icon"></i
+        ></a>
+      </div>
+    </section>
+    <div class="divider"></div>
     <footer>
-      <p>**This is just a sample portfolio. All the projects and contact details given are not real.</p>
+      <small>Copyright <span>&copy;</span> Syniah Peterson</small>
     </footer>
   </body>
 </html>
