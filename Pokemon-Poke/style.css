@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Itim&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: red;
+  font-family: Itim;
+}
+
+header {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 6rem;
+  text-align: center;
+  width: 100%;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+section {
+  border-bottom: 2px solid #000000;
+  margin: 1rem 4rem;
+  padding-bottom: 1rem;
+}
+
+.sub-heading {
+  color: #ffffff;
+  font-size: 5rem;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.paragraph,
+#list {
+  color: #acabab;
+  text-align-last: left;
+  margin: 0 2rem;
+  font-size: 2rem;
+}
+
+#game-content {
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image img {
+  width: 16rem;
+  height: 16rem;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  border: 8px solid #000000;
+  animation: floatAndSpin 4s linear infinite;
+}
+
+#giratina {
+  background-image: url(giratina.png);
+  margin-top: 1rem;
+}
+
+#dragonite {
+  margin-left: 2rem;
+}
+
+@media (max-width: 850px) {
+  body {
+    text-align: center;
+  }
+  header {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1.75rem;
+  }
+
+  .paragraph,
+  #list {
+    font-size: 1.25rem;
+  }
+
+  #game-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    row-gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .image img {
+    width: 10rem;
+    height: 10rem;
+    border-width: 4px;
+  }
+}
+
+@keyframes floatAndSpin {
+  0% {
+    transform: rotateY(0deg) translateY(0);
+  }
+  25% {
+    transform: rotateY(90deg) translateY(-20px);
+  }
+  50% {
+    transform: rotateY(180deg) translateY(0);
+  }
+  75% {
+    transform: rotateY(270deg) translateY(-20px);
+  }
+  100% {
+    transform: rotateY(360deg) translateY(0);
+  }
+}
