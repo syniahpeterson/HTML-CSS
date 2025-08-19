@@ -23,4 +23,4 @@
   
   
         
-[Responsive Web Design Certification](https://www.freecodecamp.org/certification/SyniahPeterson/responsive-web-design)   
+[Responsive Web Design Certification](https://www.freecodecamp.org/certification/syniahpeterson/responsive-web-design)   
