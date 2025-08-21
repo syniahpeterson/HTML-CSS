@@ -1,3 +1,4 @@
+### Challenges
 - [Accessibility Quiz](https://syniahpeterson.github.io/HTML-CSS/Accessibility-Quiz)    
 - [Balance Sheet](https://syniahpeterson.github.io/HTML-CSS/Balance-Sheet)   
 - [Cafe Menu](https://syniahpeterson.github.io/HTML-CSS/Cafe-Menu)   
@@ -8,19 +9,20 @@
 - [Ferris Wheel](https://syniahpeterson.github.io/HTML-CSS/Ferris-Wheel)   
 - [Magazine](https://syniahpeterson.github.io/HTML-CSS/Magazine)   
 - [Nutrition Label](https://syniahpeterson.github.io/HTML-CSS/Nutrition-Label)   
-- [Penguin](https://syniahpeterson.github.io/HTML-CSS/Penguin)   
-- [Sample Personal Portfolio](https://syniahpeterson.github.io/HTML-CSS/Personal-Portfolio)   
+- [Penguin](https://syniahpeterson.github.io/HTML-CSS/Penguin)     
 - [Photo Gallery](https://syniahpeterson.github.io/HTML-CSS/Photo-Gallery)   
 - [Piano](https://syniahpeterson.github.io/HTML-CSS/Piano) 
-- [Pokémon Poke](https://syniahpeterson.github.io/HTML-CSS/Pokemon-Poke) 
-- [Product Landing Page](https://syniahpeterson.github.io/HTML-CSS/Product-Landing-Page)   
+- [Pokémon Poke](https://syniahpeterson.github.io/HTML-CSS/Pokemon-Poke)   
 - [Registration Form](https://syniahpeterson.github.io/HTML-CSS/Registration-Form)   
 - [Rothko Painting](https://syniahpeterson.github.io/HTML-CSS/Rothko-Painting)   
-- [Survey Form](https://syniahpeterson.github.io/HTML-CSS/Survey-Form)   
-- [Technical Documentation Page](https://syniahpeterson.github.io/HTML-CSS/Technical-Documentation-Page)   
-- [Tribute Page](https://syniahpeterson.github.io/HTML-CSS/Tribute-Page)   
   
-  
+
+### Final 5 Projects
+- [Survey Form](https://syniahpeterson.github.io/HTML-CSS/Survey-Form)    
+- [Tribute Page](https://syniahpeterson.github.io/HTML-CSS/Tribute-Page)
+- [Technical Documentation Page](https://syniahpeterson.github.io/HTML-CSS/Technical-Documentation-Page)
+- [Product Landing Page](https://syniahpeterson.github.io/HTML-CSS/Product-Landing-Page)
+- [Sample Personal Portfolio](https://syniahpeterson.github.io/HTML-CSS/Personal-Portfolio) 
   
         
 [Responsive Web Design Certification](https://www.freecodecamp.org/certification/syniahpeterson/responsive-web-design)   
